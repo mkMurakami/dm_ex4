@@ -6,8 +6,15 @@
 
 int main(){
   int coin, h=0, t=0;
+  char name[25];
   srand(time(NULL));
-  
+
+  //input mane
+  printf("Who are you?\n>");
+  scanf("%s",name);
+  printf("Hello, %s!\n\n",name);
+
+  //coin tos
   printf("Tossing a coin...\n");
 
   for(int i=1;i<=3;i++){
