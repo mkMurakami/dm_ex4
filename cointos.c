@@ -25,6 +25,10 @@ int main(){
   }
 
   printf("Heads:%d, Tails:%d\n",h,t);
+
+  //judge
+  if(h>t) printf("\nYou won!!!\n");
+  else printf("\nYou lost...\n");
   
   return 0;
 }
